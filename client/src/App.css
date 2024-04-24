@@ -1,0 +1,91 @@
+.app {
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+}
+
+.floor-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 350px;
+  gap: 40px;
+  border-radius: 8px;
+  background-color: #F5F5F5;
+  border: 1px solid #C7B9B9;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.dot {
+  height: 60px;
+  width: 60px;
+  background-color: #C7B9B9;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.floor-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 250px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #F5F5F5;
+  border: 1px solid #C7B9B9;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.square {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #C7B9B9;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.floor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.floor-display-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  /* height: 150px; */
+}
+
+.floor-number {
+  padding: 10px ;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #C7B9B9;
+  display: inline-block;
+  color: red;
+  font-size: x-large;
+}
+
+.passenger-input {
+  padding: 5px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.pressed {
+  background-color: pink;
+}
+
+.active {
+  background-color: green;
+}
